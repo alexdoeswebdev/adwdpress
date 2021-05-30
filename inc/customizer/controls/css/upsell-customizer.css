@@ -12,20 +12,20 @@
 }
 
 li#accordion-section-generatepress_upsell_section {
-	border-top: 1px solid #D54E21;
-	border-bottom: 1px solid #D54E21;
+  border-top: 1px solid #0a0a0a;
+  border-bottom: 1px solid #000000;
 }
 .generate-upsell-accordion-section a {
-	background: #FFF;
-	display: block;
-	padding: 10px 10px 11px 14px;
-	line-height: 21px;
-	color: #D54E21;
-	text-decoration: none;
+  background: #111;
+  display: block;
+  padding: 10px 10px 11px 20px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .generate-upsell-accordion-section a:hover {
-	background:#FAFAFA;
+	background: #222;
 }
 
 .generate-upsell-accordion-section h3 {
@@ -35,7 +35,7 @@ li#accordion-section-generatepress_upsell_section {
 
 .generate-upsell-accordion-section h3 a:after {
 	content: "\f345";
-	color: #D54E21;
+	color: #ffffff;
 	position: absolute;
 	top: 11px;
 	right: 10px;

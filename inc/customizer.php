@@ -79,10 +79,10 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 					$wp_customize,
 					'generatepress_upsell_section',
 					array(
-						'pro_text' => __( 'Premium Modules Available', 'generatepress' ),
-						'pro_url' => generate_get_premium_url( 'https://generatepress.com/premium' ),
+						'pro_text' => __( 'Contact Alex', 'generatepress' ),
+						'pro_url' => generate_get_premium_url( 'https://alexdoesweb.dev/contact?url=generatepress.local' ),
 						'capability' => 'edit_theme_options',
-						'priority' => 0,
+						'priority' => 205,
 						'type' => 'gp-upsell-section',
 					)
 				)
